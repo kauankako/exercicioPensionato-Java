@@ -10,6 +10,7 @@ public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Good Morning!");
 		System.out.print("How many rooms will be rented?");
 		int n = sc.nextInt();
 		Cliente[] vect = new Cliente[9];
